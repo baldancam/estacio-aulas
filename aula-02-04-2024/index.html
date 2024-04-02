@@ -6,10 +6,31 @@
     <title>Aula 02/04/2024</title>
 </head>
 <body>
-    <form action="#">
+    <form action="mailto:contato@alunos.ti.com" method="post" id="fContato">
         <fieldset id="usuario">
             <legend>Identificação do Usuário</legend>
             <p>Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo"></p>
+        
+            <p>Senha: <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="Password"></p>
+
+            <p>E-mail: <input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="E-mail"></p>
+
+            <fieldset id="sexo"><legend>Sexo</legend>
+            
+                <input type="radio" name="tSexo" id="cMasc"> <label for="cMasc">Masculino</label>
+                <input type="radio" name="tSexo" id="cFem"> <label for="cFem">Feminino</label>
+            </fieldset>
+
+            <p>Data de nascimento: <input type="date" name="tDate" id="cDate"></p>
+
+            <fieldset id="endereco"><legend>Endereço do Usuário</legend>
+            
+            <p>Logradouro: <input type="text" name="tRua" id="cRua" size="13" maxlength="80"  placeholder="Rua, Avenida, Servidão"></p>
+            
+            <p>Número: <input type="number" name="tNum" id="cNum" min="0" max="99999"></p>
+
+            </fieldset>
+
         </fieldset>
     </form>
     
