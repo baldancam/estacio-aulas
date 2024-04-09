@@ -1,6 +1,33 @@
-/* * {
-    border: 0;
-    padding: 0;
-    background: rgb(255, 245, 245);
-}*/
 
+#imagem {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao{
+    font-size: 20px; 
+}
+
+em strong {
+    color: rgb(146, 40, 40);
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background-color: #ffffff;
+}
+
+.principal {
+    background: #ddc1c1;
+}
