@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: #181717;
+    font-family: "Poppins";
+}
+
+.navBar { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;   
+    overflow: hidden;
+    background: linear-gradient(to right, #03030a, #3517e0, #00d9ff);
+    
+}
+
+.navBar a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    background-color: #acc9f3;
+    color: black;
+}
+
+.imgNavBar {
+    max-width: 42px;
+    max-height: 42px;
+}
+
+.home {
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 100%;
+
+}
+
+h1{
+   padding-top: 10px;
+}
+
+.titleHome {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.homeName {
+    margin-top: 15px;
+}
+
+.divHome-ImgBio {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px;
+}
+
+.imgHome {
+    max-width: 400px;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: transform 0.3s ease; 
+}
+
+.imgHome:hover {
+        transform: scale(1.1);
+}
+
+
+.homeBio {
+    max-width: 80vh;
+    max-height: 75vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+.tecnologias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+
+
+.contentTabela {
+    display: grid;
+    width: 60%;
+    background: rgb(73, 118, 129);
+    text-align: center;
+    border-radius: 15px;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.tabelaTecnologias {
+    padding-top: 50px;
+}
+
+.loader {
+    height: 10px;
+    background: #e42525;
+    border-radius: 30px;
+}
+
+.loader-completed {
+    height: 10px;
+    background: #17fa03;
+    border-radius: 30px;
+  }
+
+  th {
+    min-height: 135px;
+  }
+
+  .loader-bar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .imgSkills {
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+  }
+  .imgSkills:hover{
+    transform: scale(1.1);
+  } 
+
+  .pTh {
+    margin-left: 15px;
+    color: antiquewhite;
+  }
+
+  .projetos {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-projetos {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    width: 80%;
+    height: 75%;
+    border-radius: 10px;
+    margin: 15vh auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: auto;
+    gap: 15px;
+}
+
+.content-projetos {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background-color: #f9f9f9;;    
+    border-radius: 10px;   
+    overflow: auto;
+    gap: 15px;
+    
+}
+
+.imgProjetos {
+    width: 200px; 
+    height: 150px;
+    border: 1px solid rgb(43, 40, 40) ; 
+    border-radius: 15px;
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.imgProjetos:hover {
+    transform: scale(1.1);
+}
+
+.divProjeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    min-height: 360px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imgGithub {
+
+   transition: transform 0.3s ease; 
+}
+
+.imgGithub:hover {
+    transform: scale(1.1);
+}
+
+.forms-div {
+    width: 100vh;
+    height: 90vh;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vh auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.h2Form {
+    margin-bottom: 20px; 
+}
+
+ form {
+    text-align: start;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0a37ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #112f80;
+}
