@@ -1,6 +1,6 @@
 
 
-.section-01-01 {
+.section-01-01-about {
     text-align: center;
     margin: 0px 40px;
     background: #ebffd9;
@@ -8,13 +8,15 @@
     padding: 20px 150px 40px 150px;
 }
 
-.section-01-01 h1 {
+.section-01-01-about h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
+    color: #333;
 }
 
-.description p {
+.description-about p {
     font-size: 1.2em;
     margin: 20px 0;
     text-align: left;
+    color: #333;
 }
