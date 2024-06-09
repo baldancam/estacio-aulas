@@ -1,0 +1,152 @@
+.section-01-01,
+.section-01-02 {
+  background: #ebffd9;
+  border-radius: 14px;
+  padding: 20px;
+  margin: 0px 40px 20px 40px;
+  text-align: center;
+  color: #333;
+}
+
+
+.info-description, h3 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.content-video iframe {
+  border-radius: 14px;
+
+}
+
+.question-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.question-form input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.question-form button {
+  padding: 10px 20px;
+  background-color: #93ce0a;
+  font-weight: bold;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.question-form button:hover {
+  background: #7fff07;
+}
+
+.questions-list {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.questions-list .question-item {
+  background-color: #fffffe;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.questions-list .question-item .question-text {
+  margin-right: 80px; 
+}
+
+.questions-list .question-item .answer-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 5px 10px;
+  background-color: #93ce0a;
+  font-weight: bold;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.questions-list .question-item .answer-button:hover {
+  background: #7fff07;
+}
+
+.questions-list .answer-form {
+  display: none;
+  margin-top: 10px;
+}
+
+.questions-list .answer-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.questions-list .answer-form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #93ce0a;
+  font-weight: bold;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.questions-list .answer-form button:hover {
+  background: #7fff07;
+}
+
+.questions-list .answer {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f0f8ff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.video-navigation {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .prev-button, .next-button {
+    padding: 10px 20px;
+    background-color: #93ce0a;
+    font-weight: bold;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin: 0 10px;
+  }
+  
+  .prev-button:hover, .next-button:hover {
+    background: #7fff07;
+  }
+  
